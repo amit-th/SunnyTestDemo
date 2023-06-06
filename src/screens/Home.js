@@ -22,6 +22,7 @@ const Home = ({ route }) => {
         <Button onPress={() => storeData(GetData)} title='save' />
         <Text style={{ fontSize:30, marginTop:20, fontFamily:'OpenSans-LightItalic'}}> custom fonts </Text>
       </View>
+      // hello amit this is master with test
     </SafeAreaView>
   )
 }
