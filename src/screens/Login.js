@@ -55,7 +55,7 @@ const Login = ({ navigation }) => {
           </View>
           <View style={{ marginTop: 30, justifyContent: 'center', padding: 20 }}>
             <Button title='Login'
-              onPress={() => navigation.navigate('Home', { paramKey: UserName })}
+              onPress={() => navigation.navigate('DataListing')}
               color={'red'} />
             <Text style={{ marginTop: 20, alignSelf: 'center' }}>Forget password ? </Text>
           </View>
